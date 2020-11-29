@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CodeBlog</string>
+    <string name="already_have_an_account_login">Already have an account, Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account register</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_send_feedback">App Feedback</string>
+    <string name="feedback_email">henryudorji@gmail.com</string>
+    <string name="feedback_subject">Code-Blog Feedback</string>
+    <string name="submit">Submit</string>
+</resources>
