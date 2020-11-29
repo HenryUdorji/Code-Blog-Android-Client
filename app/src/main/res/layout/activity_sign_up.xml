@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/noto_sans"
         android:text="Register"
-        android:textColor="@color/black"
+        android:textColor="@color/textColorPrimary"
         android:textSize="@dimen/_18ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:padding="@dimen/_5sdp"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_15ssp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,7 +78,7 @@
             android:hint="Username"
             android:inputType="textPersonName"
             android:padding="@dimen/_5sdp"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_15ssp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,7 +103,7 @@
             android:hint="password"
             android:inputType="textPassword"
             android:padding="@dimen/_5sdp"
-            android:textColor="@color/black"
+            android:textColor="@color/textColorPrimary"
             android:textSize="@dimen/_15ssp" />
     </com.google.android.material.textfield.TextInputLayout>
 

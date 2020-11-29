@@ -8,28 +8,22 @@
         app:showAsAction="always"
         android:icon="@drawable/ic_home"/>
 
-    <item android:id="@+id/share"
-        android:title="Share app"
+    <item android:id="@+id/createPost"
+        android:title="Create post"
         android:enabled="true"
         app:showAsAction="always"
-        android:icon="@drawable/ic_share"/>
+        android:icon="@drawable/ic_create"/>
 
-    <item android:id="@+id/feedback"
-        android:title="Feedback"
+    <item android:id="@+id/bookmarkPost"
+        android:title="Bookmark"
         android:enabled="true"
         app:showAsAction="always"
-        android:icon="@drawable/ic_feedback"/>
+        android:icon="@drawable/ic_bookmark"/>
 
-    <item android:id="@+id/appSettings"
-        android:title="App settings"
+    <item android:id="@+id/searchPost"
+        android:title="search"
         android:enabled="true"
         app:showAsAction="always"
-        android:icon="@drawable/ic_settings"/>
-
-    <item android:id="@+id/rate"
-        android:title="Rate app"
-        android:enabled="true"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_rate"/>
+        android:icon="@drawable/ic_search"/>
 
 </menu>
