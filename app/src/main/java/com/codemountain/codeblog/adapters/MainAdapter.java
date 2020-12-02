@@ -46,9 +46,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         holder.contentText.setText(posts.getContent());
         holder.numberOfLikes.setText(posts.getLikesCount() + " Like(s)");
         holder.numberOfComments.setText(posts.getCommentCount() + " Comment(s)");
-        holder.timeText.setText(posts.getCreatedDate().toString());
-        Glide.with(context).load(posts.getUsername())
-                .placeholder(R.drawable.account_image_placeholder).into(holder.circleImageView);
+        holder.timeText.setText(posts.getCreatedDate());
+        /*Glide.with(context).load(posts.getUsername())
+                .placeholder(R.drawable.account_image_placeholder).into(holder.circleImageView);*/
     }
 
     @Override

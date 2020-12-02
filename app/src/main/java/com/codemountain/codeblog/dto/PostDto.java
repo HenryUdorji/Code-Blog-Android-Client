@@ -18,8 +18,8 @@ public class PostDto {
     private String content;
     private String categoryName;
     private String username;
-    private Long createdDate;
-    private Long updatedDate;
+    private String createdDate;
+    private String updatedDate;
     private Integer likesCount;
     private Integer unlikesCount;
     private Integer commentCount;

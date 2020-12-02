@@ -12,18 +12,18 @@
         android:title="Create post"
         android:enabled="true"
         app:showAsAction="always"
-        android:icon="@drawable/ic_create"/>
-
-    <item android:id="@+id/bookmarkPost"
-        android:title="Bookmark"
-        android:enabled="true"
-        app:showAsAction="always"
-        android:icon="@drawable/ic_bookmark"/>
+        android:icon="@drawable/ic_pen"/>
 
     <item android:id="@+id/searchPost"
         android:title="search"
         android:enabled="true"
         app:showAsAction="always"
         android:icon="@drawable/ic_search"/>
+
+    <item android:id="@+id/userProfile"
+        android:title="Profile"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_profile"/>
 
 </menu>
